@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<jnlp spec="1.0+" codebase="http://github.com/iz-sai/samp-webtools/raw/master/demo/" 
+                  href="topcat-lite-hub.jnlp">
+  <information>
+    <title>TOPCAT</title>
+    <vendor>Mark Taylor, Bristol University, UK</vendor>
+    <homepage href="http://www.star.bristol.ac.uk/~mbt/topcat/"/>
+    <description kind="one-line">"TOPCAT - lite version"</description>
+    <icon href="TopCat2.gif"/>
+    <offline-allowed/>
+  </information>
+  <security>
+    <all-permissions/>
+  </security>
+  <resources>
+    <j2se version="1.4+"/>
+    <jar href="topcat-lite.jar"/>
+  </resources>
+  <application-desc main-class="uk.ac.starlink.topcat.Driver">
+    <argument>-hub</argument>
+    <argument>-samp</argument>
+  </application-desc>
+</jnlp>

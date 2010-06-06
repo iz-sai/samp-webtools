@@ -144,3 +144,5 @@ that name, add `title` attribute to a link like that:
       title="Name which will actually be used by applications"
       >Name of a VOTable</a>
 
+When visitor would move mouse over such link, a "Broadcast" button would appear
+right next to the link. Clicking the button would broadcast VOTable.

@@ -84,9 +84,11 @@ To enable sorting of table contents by columns, edit table's first row as follow
 
  * Only use `TH` tags for cells (`TH` is semantically correct for headers anyway,
    do not use `TD` there)
+   
  * If the table is sorted by default, title (`TH`) of that column should have as
    the last character one of these: `▽△`. First one indicates that table is sorted
    in descending order.
+   
  * By default SampWT considers cell content a number, to sort that column as
    strings or sexagecimals, provide `TH` with `data-type` attribute like that:
    

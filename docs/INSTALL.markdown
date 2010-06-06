@@ -47,3 +47,7 @@ started yet. For that you would need to put files topcat-lite.jar and
 topcat-lite-hub.jnlp on your server. Also you would need to edit the JNLP file
 so that `codebase` attribute of root `<jnlp>` tag concatenated with `href`
 attribute would produce link to that JNLP file.
+
+OR you can provide your own JNLP and .jar files with any other application capable
+of being SAMP messaging hub. This might result in much less download size for your
+visitors and much less traffic from your site.

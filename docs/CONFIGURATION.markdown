@@ -90,8 +90,8 @@ To enable sorting of table contents by columns, edit table's first row as follow
  * By default SampWT considers cell content a number, to sort that column as
    strings or sexagecimals, provide `TH` with `data-type` attribute like that:
    
-    <th data-type="string">Name</th>
-    <th data-type="sexagesimal">α</th>
+        <th data-type="string">Name</th>
+        <th data-type="sexagesimal">α</th>
     
 ### Syncronized highlighting
 
